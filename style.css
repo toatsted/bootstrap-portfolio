@@ -1,5 +1,11 @@
 h1 {
-	background-color: #4aaaac;
 	color: #ffffff;
-	
+	background-color: #4aaaac;
+
+	padding: 20px;
+	margin: 0;
+}
+
+nav {
+	border-bottom: 1px #cccccc solid;
 }
