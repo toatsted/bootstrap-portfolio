@@ -1,0 +1,43 @@
+/* navbar */
+.navbar-nav {
+	flex-direction: row;
+}
+
+.navbar-nav .nav-link{
+	padding-right: 20px;
+}
+
+.navbar {
+	border-bottom: 1px #ccc solid;
+	background-color: #ffffff;
+	padding: 0;
+}
+
+
+.navbar-brand {
+	background-color: #4aaaac;
+	color: #ffffff;
+	padding: 15px;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	font-size: 24px;
+
+}
+
+body {
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	color: #777777;
+
+	background-color: #eeeeee;
+}
+
+.nav-link {
+	color: #777777;
+}
+
+.nav-link:hover {
+	color: #4aaaac;
+}
+
+section, aside{
+	background-color: #ffffff;
+}
