@@ -3,7 +3,7 @@
 }
 
 .navbar-nav .nav-link{
-	padding-right: 20px;
+	margin: 0 10px;
 }
 
 .navbar {
@@ -56,11 +56,18 @@ section, aside{
 	padding: 0;
 }
 
-section img {
-	float: left;
-	margin-right: 10px;
+.aside-row {
+	text-align: center;
+	margin: 0 10px;
+	margin-top: 20px;
 }
 
-section h2{
-	margin-bottom: 20px;
+aside img {
+	text-align: center;
+	width: 50px;
+	border-radius: 50%;
+}
+
+aside {
+	height: 150px;
 }
