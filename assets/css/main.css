@@ -1,17 +1,13 @@
-.navbar-nav {
-	flex-direction: row;
+/* elements */
+body {
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	color: #777777;
+
+	background-color: #eeeeee;
 }
 
-.navbar-nav .nav-link{
-	margin: 0 10px;
-}
-
-.navbar {
-	border-bottom: 1px #ccc solid;
+section, aside{
 	background-color: #ffffff;
-	padding: 0;
-
-	margin-bottom: 30px;
 }
 
 h2 {
@@ -20,6 +16,20 @@ h2 {
 	border-bottom: 5px #cccccc solid;
 	padding: 10px 0;
 	font-size: 30px;
+	margin-bottom: 20px;
+}
+
+/* navbar */
+.navbar {
+	border-bottom: 1px #ccc solid;
+	background-color: #ffffff;
+	padding: 0;
+
+	margin-bottom: 30px;
+}
+
+.nav-container {
+	padding: 0;
 }
 
 .navbar-brand {
@@ -32,14 +42,13 @@ h2 {
 	transition: all ease .25s;
 }
 
-body {
-	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-	color: #777777;
 
-	background-color: #eeeeee;
+.navbar-nav {
+	flex-direction: row;
 }
 
-.nav-link {
+.navbar-nav .nav-link{
+	margin: 0 10px;
 	color: #777777;
 }
 
@@ -48,18 +57,9 @@ body {
 	background-color: #ffffff;
 }
 
-section, aside{
-	background-color: #ffffff;
-}
-
-.nav-container {
-	padding: 0;
-}
-
-.aside-row {
-	text-align: center;
-	margin: 0 10px;
-	margin-top: 20px;
+/* connect with me */
+aside {
+	height: 150px;
 }
 
 aside img {
@@ -68,6 +68,8 @@ aside img {
 	border-radius: 50%;
 }
 
-aside {
-	height: 150px;
+.aside-row {
+	text-align: center;
+	margin: 0 10px;
+	margin-top: 20px;
 }

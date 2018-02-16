@@ -1,9 +1,5 @@
 section img {
 	float: left;
-	margin-right: 10px;
+	margin-right: 20px;
 	width: 200px;
-}
-
-section h2{
-	margin-bottom: 20px;
 }
